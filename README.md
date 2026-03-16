@@ -1,6 +1,6 @@
 # Awesome AMS Skills
 
-[![en](https://img.shields.io/badge/lang-English-blue.svg)](README_en.md)
+[![en](https://img.shields.io/badge/lang-English-blue.svg)](https://ams.tokenzhang.com/en/)
 
 模拟与混合信号 (AMS) 集成电路设计自动化技能集。为智能体打造的工程实战指南。
 

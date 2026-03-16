@@ -6,7 +6,7 @@ permalink: /en/
 
 # Awesome AMS Skills
 
-[![zh](https://img.shields.io/badge/lang-中文-red.svg)](./)
+[![zh](https://img.shields.io/badge/lang-中文-red.svg)](https://ams.tokenzhang.com/)
 
 AMS IC design automation skills for AI agents — engineering-first, hands-on guides.
 
