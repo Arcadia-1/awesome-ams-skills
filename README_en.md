@@ -5,6 +5,8 @@ banner_title: Awesome AMS Skills
 banner_subtitle: AMS IC design automation skills for AI agents — engineering-first, hands-on guides.
 ---
 
+<!-- Note: The table above is Jekyll front matter for site rendering only. It's not part of the content. -->
+
 [![zh](https://img.shields.io/badge/lang-中文-red.svg)](https://ams.tokenzhang.com/)
 [![GitHub stars](https://img.shields.io/github/stars/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/network)

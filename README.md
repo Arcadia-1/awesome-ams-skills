@@ -5,6 +5,8 @@ banner_title: Awesome AMS Skills
 banner_subtitle: 模拟与混合信号 (AMS) 集成电路设计自动化技能集。为智能体打造的工程实战指南。
 ---
 
+<!-- Note: The table above is Jekyll front matter for site rendering only. It's not part of the content. -->
+
 [![en](https://img.shields.io/badge/lang-English-blue.svg)](https://ams.tokenzhang.com/en/)
 [![GitHub stars](https://img.shields.io/github/stars/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/network)
