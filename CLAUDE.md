@@ -4,12 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-A curated "awesome list" of Claude Code agent skills for Analog & Mixed-Signal (AMS) IC design. The repo contains only two Markdown files:
+A curated "awesome list" of Claude Code agent skills for Analog & Mixed-Signal (AMS) IC design. The repo contains a single Markdown file:
 
-- `README.md` — English version
-- `README_zh.md` — Chinese (Simplified) version
+- `README.md` — Chinese (Simplified) version
 
-Both files must be kept in sync. Any change to one (adding/editing a skill entry, fixing formatting) must be mirrored in the other.
+English and other language versions may be added in the future. Translations must be kept in sync with the source.
 
 ## Content Structure
 

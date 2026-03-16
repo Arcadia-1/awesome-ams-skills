@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Awesome AMS Skills
 permalink: /
 ---
+
+# Awesome AMS Skills
 
 [![en](https://img.shields.io/badge/lang-English-blue.svg)](https://ams.tokenzhang.com/en/)
 [![GitHub stars](https://img.shields.io/github/stars/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/stargazers)
