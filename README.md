@@ -2,7 +2,7 @@
 layout: default
 permalink: /
 banner_title: Awesome AMS Skills
-banner_subtitle: 模拟与混合信号 (AMS) 集成电路设计自动化技能集。为智能体打造的工程实战指南。
+banner_subtitle: 模拟与混合信号集成电路设计技能集。为智能体打造的设计与验证实战指南。
 ---
 
 <!-- Note: The table above is Jekyll front matter for site rendering only. It's not part of the content. -->
@@ -73,6 +73,14 @@ SAR ADC 系统设计技能包。
 - 闭环设计验证：内置 15 种非理想信号模型（如抖动、热噪声、建立误差）和 45 个现成案例，涵盖从基础仿真到数字校准算法的完整链路。
 - 久经流片验证：核心算法源自 50+ 次流片项目的经验沉淀。
 - 专业化分发与部署：Python 支持 pip 安装；MATLAB 提供标准工具箱分发，支持在 Add-On Explorer 中搜索同名 Toolbox 安装。
+
+
+## 待开源
+
+### [io-ring](https://github.com/Arcadia-1/AMS-IO-Agent)
+### [custom-cdac-layout]（待开源）
+### [skill-skill]（待开源）
+### [spectre-skill]（待开源）
 
 ---
 
