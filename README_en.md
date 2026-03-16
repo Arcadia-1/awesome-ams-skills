@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Awesome AMS Skills
 permalink: /en/
 ---
 
