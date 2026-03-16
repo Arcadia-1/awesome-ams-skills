@@ -1,4 +1,7 @@
-# Awesome AMS Skills
+---
+layout: default
+title: Awesome AMS Skills
+---
 
 [![en](https://img.shields.io/badge/lang-English-blue.svg)](https://ams.tokenzhang.com/en/)
 
