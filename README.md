@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Awesome AMS Skills
+permalink: /
 ---
 
 [![en](https://img.shields.io/badge/lang-English-blue.svg)](https://ams.tokenzhang.com/en/)
