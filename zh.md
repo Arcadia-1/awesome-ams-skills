@@ -42,7 +42,7 @@ permalink: /zh/
 写出可直接用于 Cadence Virtuoso 编译并适配 Spectre 仿真的 Verilog-A 代码。
 
 - **veriloga** — 编码规范与参考示例。经过 Virtuoso/Spectre 编译校对。12 类电路。
-- **openvaf** — 指导如何��用 OpenVAF 将 Verilog-A 写的器件模型编译成插件（.osdi），并让开源仿真器 ngspice 能够成功调用它进行电路仿真。
+- **openvaf** — 指导如何使用 OpenVAF 将 Verilog-A 写的器件模型编译成插件（.osdi），并让开源仿真器 ngspice 能够成功调用它进行电路仿真。
 
 ### [EVAS](https://github.com/Arcadia-1/EVAS)
 
@@ -65,7 +65,7 @@ SAR ADC 系统设计技能包。
 
 多维度 ADC 表征与诊断工具箱，深度洞察 ADC 结果背后的非理想性。
 
-- 指标一���提取：计算 ENOB、SNDR、SFDR、SNR、HD3 等核心指标，并智能标注谐波与噪底。
+- 指标一键提取：计算 ENOB、SNDR、SFDR、SNR、HD3 等核心指标，并智能标注谐波与噪底。
 - 权重一键校准：基于正弦波的比特权重提取算法。多种稳定性增强技术。支持多频率/多组数据联合校准。多种手段降低过拟合风险。
 - 可视化故障诊断：超越传统 FFT 绘图，提供极坐标频谱、jitter 提取、误差分解、误差分布等工具进行深度表征与调试。
 - 闭环设计验证：内置 15 种非理想信号模型（如抖动、热噪声、建立误差）和 45 个现成案例，涵盖从基础仿真到数字校准算法的完整链路。

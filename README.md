@@ -1,6 +1,6 @@
 # Awesome AMS Skills
 
-[![zh](https://img.shields.io/badge/lang-中文-red.svg)](README_zh.md)
+[![en](https://img.shields.io/badge/lang-English-blue.svg)](README_en.md)
 
 AMS IC design automation skills for AI agents — engineering-first, hands-on guides.
 
@@ -20,7 +20,7 @@ Foundation skill pack for analog IC design: models, simulation, characterization
 
 Block-level circuit design skill pack: theory, simulation, and practical design insights.
 
-- **comparator** — Dynamic comparator: topology and operating-phase theory, waveform/noise/ramp simulation, speed��power–noise sizing sweeps, and FOM extraction. Includes StrongArm and Miyahara examples.
+- **comparator** — Dynamic comparator: topology and operating-phase theory, waveform/noise/ramp simulation, speed–power–noise sizing sweeps, and FOM extraction. Includes StrongArm and Miyahara examples.
 - **bootstrap-switch** — Bootstrapped NMOS sampling switch: circuit topology and operating phases, gate-voltage bootstrap verification (Vgs = VDD constant), Ron comparison across input range (NMOS / CMOS / bootstrap), and transistor sizing guidance.
 - **ldo** — Low-dropout regulator design and simulation. *(WIP)*
 - **reference-buffer** — Reference voltage buffer. *(WIP)*
