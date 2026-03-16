@@ -10,8 +10,6 @@ banner_subtitle: 模拟与混合信号 (AMS) 集成电路设计自动化技能�
 [![GitHub forks](https://img.shields.io/github/forks/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/network)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Arcadia-1/awesome-ams-skills)](https://github.com/Arcadia-1/awesome-ams-skills/commits/main)
 
-模拟与混合信号 (AMS) 集成电路设计自动化技能集。为智能体打造的工程实战指南。
-
 ---
 
 ## 技能列表

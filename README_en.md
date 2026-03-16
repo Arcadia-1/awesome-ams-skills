@@ -10,8 +10,6 @@ banner_subtitle: AMS IC design automation skills for AI agents — engineering-f
 [![GitHub forks](https://img.shields.io/github/forks/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/network)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Arcadia-1/awesome-ams-skills)](https://github.com/Arcadia-1/awesome-ams-skills/commits/main)
 
-AMS IC design automation skills for AI agents — engineering-first, hands-on guides.
-
 ---
 
 ## Skills
