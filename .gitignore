@@ -1,0 +1,11 @@
+# Temporary files and screenshots
+tmp/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# IDE
+.DS_Store
+.vscode/
+*.swp
