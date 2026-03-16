@@ -1,9 +1,9 @@
 ---
 layout: default
 permalink: /en/
+banner_title: Awesome AMS Skills
+banner_subtitle: AMS IC design automation skills for AI agents — engineering-first, hands-on guides.
 ---
-
-# Awesome AMS Skills
 
 [![zh](https://img.shields.io/badge/lang-中文-red.svg)](https://ams.tokenzhang.com/)
 [![GitHub stars](https://img.shields.io/github/stars/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/stargazers)
