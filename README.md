@@ -4,6 +4,9 @@ title: Awesome AMS Skills
 ---
 
 [![en](https://img.shields.io/badge/lang-English-blue.svg)](https://ams.tokenzhang.com/en/)
+[![GitHub stars](https://img.shields.io/github/stars/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/network)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Arcadia-1/awesome-ams-skills)](https://github.com/Arcadia-1/awesome-ams-skills/commits/main)
 
 模拟与混合信号 (AMS) 集成电路设计自动化技能集。为智能体打造的工程实战指南。
 
@@ -41,7 +44,7 @@ title: Awesome AMS Skills
 - **veriloga** — 编码规范与参考示例。经过 Virtuoso/Spectre 编译校对。12 类电路。
 - **openvaf** — 指导如何使用 OpenVAF 将 Verilog-A 写的器件模型编译成插件（.osdi），并让开源仿真器 ngspice 能够成功调用它进行电路仿真。
 
-### [EVAS](https://github.com/Arcadia-1/EVAS)
+### [EVAS](https://github.com/Arcadia-1/EVAS) [![PyPI](https://img.shields.io/pypi/v/evas-sim.svg)](https://pypi.org/project/evas-sim/) [![PyPI Downloads](https://img.shields.io/pypi/dm/evas-sim)](https://pypi.org/project/evas-sim/)
 
 零依赖、秒级响应的 Verilog-A 行为级仿真沙箱，时钟、控制、校准等模块的验证利器。
 
@@ -58,7 +61,7 @@ SAR ADC 系统设计技能包。
 - **sar-cdac** - 电容阵列控制原理、建模与实现。【开发中】
 - **sar-logic** - SAR 逻辑控制原理、建模与实现。【开发中】
 
-### [adctoolbox](https://github.com/Arcadia-1/ADCToolbox)
+### [adctoolbox](https://github.com/Arcadia-1/ADCToolbox) [![PyPI](https://img.shields.io/pypi/v/adctoolbox.svg)](https://pypi.org/project/adctoolbox/) [![PyPI Downloads](https://img.shields.io/pypi/dm/adctoolbox)](https://pypi.org/project/adctoolbox/)
 
 多维度 ADC 表征与诊断工具箱，深度洞察 ADC 结果背后的非理想性。
 

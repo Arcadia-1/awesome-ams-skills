@@ -7,6 +7,9 @@ permalink: /en/
 # Awesome AMS Skills
 
 [![zh](https://img.shields.io/badge/lang-中文-red.svg)](https://ams.tokenzhang.com/)
+[![GitHub stars](https://img.shields.io/github/stars/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/network)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Arcadia-1/awesome-ams-skills)](https://github.com/Arcadia-1/awesome-ams-skills/commits/main)
 
 AMS IC design automation skills for AI agents — engineering-first, hands-on guides.
 
@@ -44,7 +47,7 @@ Write Verilog-A code that compiles directly in Cadence Virtuoso and simulates in
 - **veriloga** — Coding rules and reference examples, validated against Virtuoso/Spectre compilation. 12-category circuit reference library with domain-aware simulation routing (voltage → EVAS, current → OpenVAF/ngspice).
 - **openvaf** — Guide for compiling Verilog-A device models into plugins (.osdi) with OpenVAF and loading them into ngspice for circuit simulation.
 
-### [EVAS](https://github.com/Arcadia-1/EVAS)
+### [EVAS](https://github.com/Arcadia-1/EVAS) [![PyPI](https://img.shields.io/pypi/v/evas-sim.svg)](https://pypi.org/project/evas-sim/) [![PyPI Downloads](https://img.shields.io/pypi/dm/evas-sim)](https://pypi.org/project/evas-sim/)
 
 Zero-dependency, instant-response Verilog-A behavioral simulation sandbox — ideal for verifying clock, control, and calibration logic.
 
@@ -61,7 +64,7 @@ SAR ADC system design skill pack.
 - **sar-cdac** — Capacitor array control principles, modeling, and implementation. *(WIP)*
 - **sar-logic** — SAR logic control principles, modeling, and implementation. *(WIP)*
 
-### [adctoolbox](https://github.com/Arcadia-1/ADCToolbox)
+### [adctoolbox](https://github.com/Arcadia-1/ADCToolbox) [![PyPI](https://img.shields.io/pypi/v/adctoolbox.svg)](https://pypi.org/project/adctoolbox/) [![PyPI Downloads](https://img.shields.io/pypi/dm/adctoolbox)](https://pypi.org/project/adctoolbox/)
 
 Multi-dimensional ADC characterization and diagnosis toolbox for deep insight into non-idealities.
 
