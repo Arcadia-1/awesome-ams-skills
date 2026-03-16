@@ -13,15 +13,15 @@
   <!-- Subtle inner ring for definition -->
   <circle cx="100" cy="100" r="95" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2" />
 
-  <!-- Text: AMS -->
+  <!-- Large letter A -->
   <text
     x="100"
-    y="115"
+    y="125"
     font-family="Arial, sans-serif"
-    font-size="72"
-    font-weight="bold"
+    font-size="140"
+    font-weight="900"
     text-anchor="middle"
     fill="white"
-    letter-spacing="8"
-  >AMS</text>
+  >A</text>
 </svg>
+
