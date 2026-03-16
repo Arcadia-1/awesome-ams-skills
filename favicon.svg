@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background: gradient circle from teal to green -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0088a3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1ba384;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circle background -->
+  <circle cx="100" cy="100" r="95" fill="url(#gradient)" />
+
+  <!-- Subtle inner ring for definition -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2" />
+
+  <!-- Text: AMS -->
+  <text
+    x="100"
+    y="115"
+    font-family="Arial, sans-serif"
+    font-size="72"
+    font-weight="bold"
+    text-anchor="middle"
+    fill="white"
+    letter-spacing="8"
+  >AMS</text>
+</svg>
