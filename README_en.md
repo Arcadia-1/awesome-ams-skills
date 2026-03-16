@@ -76,6 +76,15 @@ Multi-dimensional ADC characterization and diagnosis toolbox for deep insight in
 
 ---
 
+## Coming Soon
+
+### [io-ring](https://github.com/Arcadia-1/AMS-IO-Agent)
+### [custom-cdac-layout] — *To be open-sourced*
+### [skill-skill] — *To be open-sourced*
+### [spectre-skill] — *To be open-sourced*
+
+---
+
 ## Contributing
 
 PRs are welcome in the following directions:
