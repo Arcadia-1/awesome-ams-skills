@@ -123,15 +123,6 @@ vaBench / vaEVAS benchmark source for behavioral Verilog-A generation and valida
 - **validation route** — EVAS for fast local checking and Spectre for final gold promotion or paper-facing evidence.
 - **benchmark assets** — Prompt, metadata, checks, gold assets, and compact evidence reports for release-quality tasks.
 
-### [adc-claw](https://github.com/Arcadia-1/adc-claw) [![Stars](https://img.shields.io/github/stars/Arcadia-1/adc-claw?style=flat-square&logo=github)](https://github.com/Arcadia-1/adc-claw/stargazers)
-
-ADC-focused Spectre simulation workspace for sampling networks, switches, comparators, and small SAR flows.
-
-- **sampling** — Bootstrap, CMOS, NMOS, and differential sampling testbenches with coherent transient setup and FFT/ENOB/SNDR/SFDR analysis.
-- **comparator** — StrongArm and Miyahara comparator simulations: transient decision behavior, Vcm/Vid sweeps, variant comparison, PSS/Pnoise, and input-size studies.
-- **switch** — NMOS/CMOS/bootstrap switch characterization including Ron, high-speed sampling behavior, and distortion-oriented analysis.
-- **sar** — 4-bit SAR ADC netlists and analysis scripts tying SAR logic, comparator, and sampling behavior into a compact verification flow.
-
 ---
 
 ## Coming Soon

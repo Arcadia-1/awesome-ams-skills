@@ -41,4 +41,3 @@ Keep descriptions parallel in structure and concise. Bullet points describe indi
 | [AMS-IO-Bench](https://github.com/Arcadia-1/AMS-IO-Bench) | 60-case IO ring generation benchmark |
 | [Verilog-A-Sculptor](https://github.com/Arcadia-1/Verilog-A-Sculptor) | React/Vite Verilog-A generation app for ADC/DAC/TDC/DTC models |
 | [behavioral-veriloga-eval](https://github.com/Arcadia-1/behavioral-veriloga-eval) | vaBench / vaEVAS benchmark, EVAS/Spectre validation assets |
-| [adc-claw](https://github.com/Arcadia-1/adc-claw) | ADC Spectre simulation workspace: sampling, comparator, switch, SAR experiments |
