@@ -29,8 +29,10 @@ Keep descriptions parallel in structure and concise. Bullet points describe indi
 | Repo | Skills |
 |------|--------|
 | [gmoverid-skill](https://github.com/Arcadia-1/gmoverid-skill) | ngspice, gmoverid, transistor-models |
-| [analog-circuit-skills](https://github.com/Arcadia-1/analog-circuit-skills) | comparator, bootstrap-switch, ldo, reference-buffer, source-buffer, push-pull-buffer, ringamp, floating-inverter-amplifier, floating-charge-transferrer, phase-noise *(most WIP)* |
+| [analog-circuit-skills](https://github.com/Arcadia-1/analog-circuit-skills) | comparator, bootstrap-switch, five-transistor-ota, two-stage-opamp, ldo, reference-buffer, source-buffer, push-pull-buffer, ringamp, floating-inverter-amplifier, floating-charge-transferrer, phase-noise *(most WIP)* |
 | [veriloga-skills](https://github.com/Arcadia-1/veriloga-skills) | veriloga, openvaf |
 | [EVAS](https://github.com/Arcadia-1/EVAS) | evas-sim — pure-Python event-driven VA simulator |
-| [sar-adc-skills](https://github.com/Arcadia-1/sar-adc-skills) | sar-adc, sar-cdac, sar-logic *(all WIP)* |
+| [sar-adc-skills](https://github.com/Arcadia-1/sar-adc-skills) | SAR ADC architecture, CDAC, comparator, bootstrap switch, LDO, SAR logic, integration, Spectre verification, 4-bit VA assets, 11-bit reference design |
+| [virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite) | SpectreSimulator, VirtuosoClient, SKILL execution, Maestro/ADE helpers, PSF parsers |
+| [adc-claw](https://github.com/Arcadia-1/adc-claw) | ADC Spectre simulation workspace: sampling, comparator, switch, SAR experiments |
 | [adctoolbox](https://github.com/Arcadia-1/ADCToolbox) | ADC characterization, calibration, and diagnosis toolbox |

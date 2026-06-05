@@ -4,7 +4,7 @@ permalink: /
 banner_title: Awesome AMS Skills
 banner_subtitle: AMS IC design automation skills for AI agents — engineering-first, hands-on guides.
 ---
-s
+
 [![GitHub stars](https://img.shields.io/github/stars/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Arcadia-1/awesome-ams-skills?style=flat)](https://github.com/Arcadia-1/awesome-ams-skills/network)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Arcadia-1/awesome-ams-skills)](https://github.com/Arcadia-1/awesome-ams-skills/commits/main)
@@ -27,6 +27,8 @@ Block-level circuit design skill pack: theory, simulation, and practical design 
 
 - **comparator** — Dynamic comparator: topology and operating-phase theory, waveform/noise/ramp simulation, speed–power–noise sizing sweeps, and FOM extraction. Includes StrongArm and Miyahara examples.
 - **bootstrap-switch** — Bootstrapped NMOS sampling switch: circuit topology and operating phases, gate-voltage bootstrap verification (Vgs = VDD constant), Ron comparison across input range (NMOS / CMOS / bootstrap), and transistor sizing guidance.
+- **five-transistor-ota** — Classic 5T CMOS OTA with NMOS differential pair, PMOS current-mirror load, and NMOS tail source; includes ngspice DC transfer, AC gain/bandwidth/phase, and output-noise analysis.
+- **two-stage-opamp** — Miller-compensated two-stage CMOS op amp with PMOS input pair, NMOS mirror load, second common-source gain stage, bias mirror, DC operating-point, AC gain/phase, and noise simulations.
 - **ldo** — Low-dropout regulator design and simulation. *(WIP)*
 - **reference-buffer** — Reference voltage buffer. *(WIP)*
 - **source-buffer** — Source follower, FVF (Flipped-Voltage-Follower), and SSF (Super-Source-Follower) analysis, characterization, and design. *(WIP)*
@@ -54,11 +56,28 @@ Zero-dependency, instant-response Verilog-A behavioral simulation sandbox — id
 
 ### [sar-adc-skills](https://github.com/Arcadia-1/sar-adc-skills)
 
-SAR ADC system design skill pack.
+SAR ADC design knowledge base for agentic IC design — from system architecture to transistor-level implementation and verification.
 
-- **sar-adc** — SAR ADC system modeling, specification budgeting, and key design considerations. *(WIP)*
-- **sar-cdac** — Capacitor array control principles, modeling, and implementation. *(WIP)*
-- **sar-logic** — SAR logic control principles, modeling, and implementation. *(WIP)*
+- **sar-adc-skill** — Full SAR ADC design guide: specs-to-budgets, CDAC-centered architecture, sync/async SAR logic, comparator/bootstrap/LDO submodules, top-level integration, PVT/metastability/reference concerns, and Spectre verification flow.
+- **behavioral Verilog-A assets** — 4-bit SAR building blocks for system verification: ideal CDAC, comparator, sync logic, async logic, DAC, and single-ended SAR ADC model.
+- **11-bit reference design** — Taped-out SAR ADC reference notes covering module hierarchy, signal polarity, async control, CDAC unit sizing, bootstrap switch, StrongArm comparator, and verification checklist.
+
+### [virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite)
+
+Lightweight Python bridge for remote Cadence Virtuoso and Spectre workflows.
+
+- **SpectreSimulator** — Run Spectre remotely through SSH, transfer netlists/results, choose Spectre modes, and parse PSF ASCII outputs for automated analysis.
+- **VirtuosoClient** — Execute SKILL, inspect/edit schematics and layouts, drive Maestro/ADE workflows, and collect snapshots/results through a Python interface.
+- **agent tooling** — Includes Spectre/Virtuoso skills, examples, profile-based environment resolution, and reusable parsers used by downstream AMS workflows.
+
+### [adc-claw](https://github.com/Arcadia-1/adc-claw)
+
+ADC-focused Spectre simulation workspace for sampling networks, switches, comparators, and small SAR flows.
+
+- **sampling** — Bootstrap, CMOS, NMOS, and differential sampling testbenches with coherent transient setup and FFT/ENOB/SNDR/SFDR analysis.
+- **comparator** — StrongArm and Miyahara comparator simulations: transient decision behavior, Vcm/Vid sweeps, variant comparison, PSS/Pnoise, and input-size studies.
+- **switch** — NMOS/CMOS/bootstrap switch characterization including Ron, high-speed sampling behavior, and distortion-oriented analysis.
+- **sar** — 4-bit SAR ADC netlists and analysis scripts tying SAR logic, comparator, and sampling behavior into a compact verification flow.
 
 ### [adctoolbox](https://github.com/Arcadia-1/ADCToolbox) [![PyPI](https://img.shields.io/pypi/v/adctoolbox.svg)](https://pypi.org/project/adctoolbox/) [![PyPI Downloads](https://img.shields.io/pypi/dm/adctoolbox)](https://pypi.org/project/adctoolbox/)
 
@@ -78,7 +97,6 @@ Multi-dimensional ADC characterization and diagnosis toolbox for deep insight in
 ### [io-ring](https://github.com/Arcadia-1/AMS-IO-Agent)
 ### [custom-cdac-layout] — *To be open-sourced*
 ### [skill-skill] — *To be open-sourced*
-### [spectre-skill] — *To be open-sourced*
 
 ---
 
