@@ -13,9 +13,7 @@ banner_subtitle: AMS IC design automation skills for AI agents — engineering-f
 
 ## Projects
 
-### [virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/virtuoso-bridge-lite?style=flat-square&logo=github)](https://github.com/Arcadia-1/virtuoso-bridge-lite/stargazers)
+### [virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite) [![Stars](https://img.shields.io/github/stars/Arcadia-1/virtuoso-bridge-lite?style=flat-square&logo=github)](https://github.com/Arcadia-1/virtuoso-bridge-lite/stargazers)
 
 Lightweight Python bridge for remote Cadence Virtuoso and Spectre workflows.
 
@@ -23,11 +21,7 @@ Lightweight Python bridge for remote Cadence Virtuoso and Spectre workflows.
 - **VirtuosoClient** — Execute SKILL, inspect/edit schematics and layouts, drive Maestro/ADE workflows, and collect snapshots/results through a Python interface.
 - **agent tooling** — Includes Spectre/Virtuoso skills, examples, profile-based environment resolution, and reusable parsers used by downstream AMS workflows.
 
-### [ADCToolbox](https://github.com/Arcadia-1/ADCToolbox)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/ADCToolbox?style=flat-square&logo=github)](https://github.com/Arcadia-1/ADCToolbox/stargazers)
-[![PyPI](https://img.shields.io/pypi/v/adctoolbox.svg?style=flat-square)](https://pypi.org/project/adctoolbox/)
-[![PyPI Downloads](https://img.shields.io/pypi/dm/adctoolbox?style=flat-square)](https://pypi.org/project/adctoolbox/)
+### [ADCToolbox](https://github.com/Arcadia-1/ADCToolbox) [![Stars](https://img.shields.io/github/stars/Arcadia-1/ADCToolbox?style=flat-square&logo=github)](https://github.com/Arcadia-1/ADCToolbox/stargazers) [![PyPI](https://img.shields.io/pypi/v/adctoolbox.svg?style=flat-square)](https://pypi.org/project/adctoolbox/) [![PyPI Downloads](https://img.shields.io/pypi/dm/adctoolbox?style=flat-square)](https://pypi.org/project/adctoolbox/)
 
 Multi-dimensional ADC characterization and diagnosis toolbox for deep insight into non-idealities.
 
@@ -38,9 +32,7 @@ Multi-dimensional ADC characterization and diagnosis toolbox for deep insight in
 - Battle-tested: core algorithms distilled from 50+ tape-out projects.
 - Available as a pip package (Python), MATLAB toolbox, and bundled Codex skill installer.
 
-### [gmoverid-skill](https://github.com/Arcadia-1/gmoverid-skill)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/gmoverid-skill?style=flat-square&logo=github)](https://github.com/Arcadia-1/gmoverid-skill/stargazers)
+### [gmoverid-skill](https://github.com/Arcadia-1/gmoverid-skill) [![Stars](https://img.shields.io/github/stars/Arcadia-1/gmoverid-skill?style=flat-square&logo=github)](https://github.com/Arcadia-1/gmoverid-skill/stargazers)
 
 Foundation skill pack for analog IC design: models, simulation, characterization, and systematic sizing.
 
@@ -48,9 +40,7 @@ Foundation skill pack for analog IC design: models, simulation, characterization
 - **gmoverid** — gm/ID design methodology: transistor characterization (I-V curves, gm/Id relationships, gate capacitance) and automated sizing via lookup-table API.
 - **transistor-models** — PTM model library: traditional bulk 180/130/90/65nm, HP/LP 45/32/22nm, and multi-gate FinFET 20/16/14/10/7nm.
 
-### [AMS-IO-Agent](https://github.com/Arcadia-1/AMS-IO-Agent)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/AMS-IO-Agent?style=flat-square&logo=github)](https://github.com/Arcadia-1/AMS-IO-Agent/stargazers)
+### [AMS-IO-Agent](https://github.com/Arcadia-1/AMS-IO-Agent) [![Stars](https://img.shields.io/github/stars/Arcadia-1/AMS-IO-Agent?style=flat-square&logo=github)](https://github.com/Arcadia-1/AMS-IO-Agent/stargazers)
 
 LLM-driven Cadence Virtuoso agent for IO ring schematic/layout generation and verification.
 
@@ -58,9 +48,7 @@ LLM-driven Cadence Virtuoso agent for IO ring schematic/layout generation and ve
 - **verification flow** — Integrates DRC, LVS, PEX, image-vision inspection, task history, and tool statistics.
 - **interfaces** — CLI and optional Gradio web UI with multi-model API support.
 
-### [analog-agents](https://github.com/Arcadia-1/analog-agents)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/analog-agents?style=flat-square&logo=github)](https://github.com/Arcadia-1/analog-agents/stargazers)
+### [analog-agents](https://github.com/Arcadia-1/analog-agents) [![Stars](https://img.shields.io/github/stars/Arcadia-1/analog-agents?style=flat-square&logo=github)](https://github.com/Arcadia-1/analog-agents/stargazers)
 
 Federated agentic analog IC design framework: 12 skills, 4 agent roles, knowledge graph, cross-model review, and self-evolving checklists for design flows with or without EDA.
 
@@ -68,9 +56,7 @@ Federated agentic analog IC design framework: 12 skills, 4 agent roles, knowledg
 - **verification levels** — L1 functional, L2 performance, and L3 PVT robustness flow with explicit spec sheets, margin reports, and iteration logs.
 - **knowledge graph + checklists** — Topology lessons, anti-patterns, review rules, and effort levels that scale from quick checks to exhaustive verification.
 
-### [veriloga-skills](https://github.com/Arcadia-1/veriloga-skills)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/veriloga-skills?style=flat-square&logo=github)](https://github.com/Arcadia-1/veriloga-skills/stargazers)
+### [veriloga-skills](https://github.com/Arcadia-1/veriloga-skills) [![Stars](https://img.shields.io/github/stars/Arcadia-1/veriloga-skills?style=flat-square&logo=github)](https://github.com/Arcadia-1/veriloga-skills/stargazers)
 
 Write Verilog-A code that compiles directly in Cadence Virtuoso and simulates in Spectre.
 
@@ -78,9 +64,7 @@ Write Verilog-A code that compiles directly in Cadence Virtuoso and simulates in
 - **evas-sim** — Optional voltage-domain verification path for behavioral Verilog-A modules using EVAS event-driven simulation.
 - **openvaf** — Guide for compiling Verilog-A device models into plugins (.osdi) with OpenVAF and loading them into ngspice for circuit simulation.
 
-### [sar-adc-skills](https://github.com/Arcadia-1/sar-adc-skills)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/sar-adc-skills?style=flat-square&logo=github)](https://github.com/Arcadia-1/sar-adc-skills/stargazers)
+### [sar-adc-skills](https://github.com/Arcadia-1/sar-adc-skills) [![Stars](https://img.shields.io/github/stars/Arcadia-1/sar-adc-skills?style=flat-square&logo=github)](https://github.com/Arcadia-1/sar-adc-skills/stargazers)
 
 SAR ADC design knowledge base for agentic IC design — from system architecture to transistor-level implementation and verification.
 
@@ -88,9 +72,7 @@ SAR ADC design knowledge base for agentic IC design — from system architecture
 - **behavioral Verilog-A assets** — 4-bit SAR building blocks for system verification: ideal CDAC, comparator, sync logic, async logic, DAC, and single-ended SAR ADC model.
 - **11-bit reference design** — Taped-out SAR ADC reference notes covering module hierarchy, signal polarity, async control, CDAC unit sizing, bootstrap switch, StrongArm comparator, and verification checklist.
 
-### [Analog-Circuit-Knowledge-Base](https://github.com/Arcadia-1/Analog-Circuit-Knowledge-Base)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/Analog-Circuit-Knowledge-Base?style=flat-square&logo=github)](https://github.com/Arcadia-1/Analog-Circuit-Knowledge-Base/stargazers)
+### [Analog-Circuit-Knowledge-Base](https://github.com/Arcadia-1/Analog-Circuit-Knowledge-Base) [![Stars](https://img.shields.io/github/stars/Arcadia-1/Analog-Circuit-Knowledge-Base?style=flat-square&logo=github)](https://github.com/Arcadia-1/Analog-Circuit-Knowledge-Base/stargazers)
 
 Structured analog circuit reference library for amplifier theory, noise techniques, ADC architectures, pole-zero analysis, and design calculations.
 
@@ -98,9 +80,7 @@ Structured analog circuit reference library for amplifier theory, noise techniqu
 - **noise and sampling notes** — kT/C cancellation, correlated double sampling, correlated level shifting, current-integration sampling, and source-degeneration noise analysis.
 - **calculation guides** — Bandwidth, phase-noise conversion, comparator noise statistics, and capacitance extraction from AC simulation.
 
-### [analog-circuit-skills](https://github.com/Arcadia-1/analog-circuit-skills)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/analog-circuit-skills?style=flat-square&logo=github)](https://github.com/Arcadia-1/analog-circuit-skills/stargazers)
+### [analog-circuit-skills](https://github.com/Arcadia-1/analog-circuit-skills) [![Stars](https://img.shields.io/github/stars/Arcadia-1/analog-circuit-skills?style=flat-square&logo=github)](https://github.com/Arcadia-1/analog-circuit-skills/stargazers)
 
 Block-level circuit design skill pack: theory, simulation, and practical design insights.
 
@@ -110,11 +90,7 @@ Block-level circuit design skill pack: theory, simulation, and practical design 
 - **two-stage-opamp** — Miller-compensated two-stage CMOS op amp with PMOS input pair, NMOS mirror load, second common-source gain stage, bias mirror, DC operating-point, AC gain/phase, pole-zero, and open-/closed-loop noise simulations.
 - **ldo** — Low-dropout regulator with ngspice DC, AC loop/PSRR/Zout, transient load/line behavior, noise, compensation sweeps, and auto-design helper scripts.
 
-### [EVAS](https://github.com/Arcadia-1/EVAS)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/EVAS?style=flat-square&logo=github)](https://github.com/Arcadia-1/EVAS/stargazers)
-[![PyPI](https://img.shields.io/pypi/v/evas-sim.svg?style=flat-square)](https://pypi.org/project/evas-sim/)
-[![PyPI Downloads](https://img.shields.io/pypi/dm/evas-sim?style=flat-square)](https://pypi.org/project/evas-sim/)
+### [EVAS](https://github.com/Arcadia-1/EVAS) [![Stars](https://img.shields.io/github/stars/Arcadia-1/EVAS?style=flat-square&logo=github)](https://github.com/Arcadia-1/EVAS/stargazers) [![PyPI](https://img.shields.io/pypi/v/evas-sim.svg?style=flat-square)](https://pypi.org/project/evas-sim/) [![PyPI Downloads](https://img.shields.io/pypi/dm/evas-sim?style=flat-square)](https://pypi.org/project/evas-sim/)
 
 Zero-dependency, instant-response Verilog-A behavioral simulation sandbox — ideal for verifying clock, control, and calibration logic.
 
@@ -123,9 +99,7 @@ Zero-dependency, instant-response Verilog-A behavioral simulation sandbox — id
 - 5 bundled smoke-test groups covering clock dividers, digital basics, noise generation, ideal ADC/DAC, and comparator examples; the larger workflow-oriented example set lives in `veriloga-skills/evas-sim`.
 - **evas-sim** — Guides agents to autonomously build, run, and debug Verilog-A behavioral models in license-free environments.
 
-### [AMS-IO-Bench](https://github.com/Arcadia-1/AMS-IO-Bench)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/AMS-IO-Bench?style=flat-square&logo=github)](https://github.com/Arcadia-1/AMS-IO-Bench/stargazers)
+### [AMS-IO-Bench](https://github.com/Arcadia-1/AMS-IO-Bench) [![Stars](https://img.shields.io/github/stars/Arcadia-1/AMS-IO-Bench?style=flat-square&logo=github)](https://github.com/Arcadia-1/AMS-IO-Bench/stargazers)
 
 Benchmark dataset for automated IC IO ring generation in Cadence Virtuoso.
 
@@ -133,9 +107,7 @@ Benchmark dataset for automated IC IO ring generation in Cadence Virtuoso.
 - **coverage** — Single/double rings, digital/analog/mixed signals, and multi-voltage-domain configurations.
 - **metrics** — Correctness, completeness, DRC/LVS cleanliness, domain isolation, pad ordering, and efficiency.
 
-### [Verilog-A-Sculptor](https://github.com/Arcadia-1/Verilog-A-Sculptor)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/Verilog-A-Sculptor?style=flat-square&logo=github)](https://github.com/Arcadia-1/Verilog-A-Sculptor/stargazers)
+### [Verilog-A-Sculptor](https://github.com/Arcadia-1/Verilog-A-Sculptor) [![Stars](https://img.shields.io/github/stars/Arcadia-1/Verilog-A-Sculptor?style=flat-square&logo=github)](https://github.com/Arcadia-1/Verilog-A-Sculptor/stargazers)
 
 React + Vite application for AI-assisted Verilog-A model generation.
 
@@ -143,9 +115,7 @@ React + Vite application for AI-assisted Verilog-A model generation.
 - **global constraints** — Module naming, hidden-state handling, transition strategy, supply style, reset, and enable behavior.
 - **LLM generation** — Gemini-powered code generation with rationale and copyable Verilog-A output.
 
-### [behavioral-veriloga-eval](https://github.com/Arcadia-1/behavioral-veriloga-eval)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/behavioral-veriloga-eval?style=flat-square&logo=github)](https://github.com/Arcadia-1/behavioral-veriloga-eval/stargazers)
+### [behavioral-veriloga-eval](https://github.com/Arcadia-1/behavioral-veriloga-eval) [![Stars](https://img.shields.io/github/stars/Arcadia-1/behavioral-veriloga-eval?style=flat-square&logo=github)](https://github.com/Arcadia-1/behavioral-veriloga-eval/stargazers)
 
 vaBench / vaEVAS benchmark source for behavioral Verilog-A generation and validation.
 
@@ -153,9 +123,7 @@ vaBench / vaEVAS benchmark source for behavioral Verilog-A generation and valida
 - **validation route** — EVAS for fast local checking and Spectre for final gold promotion or paper-facing evidence.
 - **benchmark assets** — Prompt, metadata, checks, gold assets, and compact evidence reports for release-quality tasks.
 
-### [adc-claw](https://github.com/Arcadia-1/adc-claw)
-
-[![Stars](https://img.shields.io/github/stars/Arcadia-1/adc-claw?style=flat-square&logo=github)](https://github.com/Arcadia-1/adc-claw/stargazers)
+### [adc-claw](https://github.com/Arcadia-1/adc-claw) [![Stars](https://img.shields.io/github/stars/Arcadia-1/adc-claw?style=flat-square&logo=github)](https://github.com/Arcadia-1/adc-claw/stargazers)
 
 ADC-focused Spectre simulation workspace for sampling networks, switches, comparators, and small SAR flows.
 
