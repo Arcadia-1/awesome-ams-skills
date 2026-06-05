@@ -28,17 +28,17 @@ Keep descriptions parallel in structure and concise. Bullet points describe indi
 
 | Repo | Skills |
 |------|--------|
-| [analog-agents](https://github.com/Arcadia-1/analog-agents) | 12 analog design skills, librarian/architect/designer/verifier agents, knowledge graph, cross-model review |
-| [gmoverid-skill](https://github.com/Arcadia-1/gmoverid-skill) | ngspice, gmoverid, transistor-models |
-| [analog-circuit-skills](https://github.com/Arcadia-1/analog-circuit-skills) | comparator, bootstrap-switch, five-transistor-ota, two-stage-opamp, ldo |
-| [veriloga-skills](https://github.com/Arcadia-1/veriloga-skills) | veriloga, evas-sim, openvaf |
-| [EVAS](https://github.com/Arcadia-1/EVAS) | evas-sim — pure-Python event-driven VA simulator, 5 bundled smoke-test groups |
-| [sar-adc-skills](https://github.com/Arcadia-1/sar-adc-skills) | SAR ADC architecture, CDAC, comparator, bootstrap switch, LDO, SAR logic, integration, Spectre verification, 4-bit VA assets, 11-bit reference design |
 | [virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite) | SpectreSimulator, VirtuosoClient, SKILL execution, Maestro/ADE helpers, PSF parsers |
-| [adc-claw](https://github.com/Arcadia-1/adc-claw) | ADC Spectre simulation workspace: sampling, comparator, switch, SAR experiments |
 | [adctoolbox](https://github.com/Arcadia-1/ADCToolbox) | ADC characterization, calibration, diagnosis toolbox, 59 examples, Codex skill installer |
-| [Analog-Circuit-Knowledge-Base](https://github.com/Arcadia-1/Analog-Circuit-Knowledge-Base) | analog theory, amplifier references, noise/sampling techniques, calculation guides |
-| [behavioral-veriloga-eval](https://github.com/Arcadia-1/behavioral-veriloga-eval) | vaBench / vaEVAS benchmark, EVAS/Spectre validation assets |
+| [gmoverid-skill](https://github.com/Arcadia-1/gmoverid-skill) | ngspice, gmoverid, transistor-models |
 | [AMS-IO-Agent](https://github.com/Arcadia-1/AMS-IO-Agent) | IO ring generation and Virtuoso verification agent |
+| [analog-agents](https://github.com/Arcadia-1/analog-agents) | 12 analog design skills, librarian/architect/designer/verifier agents, knowledge graph, cross-model review |
+| [veriloga-skills](https://github.com/Arcadia-1/veriloga-skills) | veriloga, evas-sim, openvaf |
+| [sar-adc-skills](https://github.com/Arcadia-1/sar-adc-skills) | SAR ADC architecture, CDAC, comparator, bootstrap switch, LDO, SAR logic, integration, Spectre verification, 4-bit VA assets, 11-bit reference design |
+| [Analog-Circuit-Knowledge-Base](https://github.com/Arcadia-1/Analog-Circuit-Knowledge-Base) | analog theory, amplifier references, noise/sampling techniques, calculation guides |
+| [analog-circuit-skills](https://github.com/Arcadia-1/analog-circuit-skills) | comparator, bootstrap-switch, five-transistor-ota, two-stage-opamp, ldo |
+| [EVAS](https://github.com/Arcadia-1/EVAS) | evas-sim — pure-Python event-driven VA simulator, 5 bundled smoke-test groups |
 | [AMS-IO-Bench](https://github.com/Arcadia-1/AMS-IO-Bench) | 60-case IO ring generation benchmark |
 | [Verilog-A-Sculptor](https://github.com/Arcadia-1/Verilog-A-Sculptor) | React/Vite Verilog-A generation app for ADC/DAC/TDC/DTC models |
+| [behavioral-veriloga-eval](https://github.com/Arcadia-1/behavioral-veriloga-eval) | vaBench / vaEVAS benchmark, EVAS/Spectre validation assets |
+| [adc-claw](https://github.com/Arcadia-1/adc-claw) | ADC Spectre simulation workspace: sampling, comparator, switch, SAR experiments |

@@ -11,60 +11,11 @@ banner_subtitle: AMS IC design automation skills for AI agents — engineering-f
 
 ---
 
-## Skills
-
-### [analog-agents](https://github.com/Arcadia-1/analog-agents)
-
-Federated agentic analog IC design framework: 12 skills, 4 agent roles, knowledge graph, cross-model review, and self-evolving checklists for design flows with or without EDA.
-
-- **librarian / architect / designer / verifier** — Role-separated agents for library survey, architecture decomposition, transistor-level design, pre-simulation review, Spectre verification, and sign-off.
-- **verification levels** — L1 functional, L2 performance, and L3 PVT robustness flow with explicit spec sheets, margin reports, and iteration logs.
-- **knowledge graph + checklists** — Topology lessons, anti-patterns, review rules, and effort levels that scale from quick checks to exhaustive verification.
-
-### [gmoverid-skill](https://github.com/Arcadia-1/gmoverid-skill)
-
-Foundation skill pack for analog IC design: models, simulation, characterization, and systematic sizing.
-
-- **ngspice** — Open-source simulator tutorials: 9 reference scenarios covering DC, AC, Transient, and Noise analyses with built-in PTM 180/45/22nm models.
-- **gmoverid** — gm/ID design methodology: transistor characterization (I-V curves, gm/Id relationships, gate capacitance) and automated sizing via lookup-table API.
-- **transistor-models** — PTM model library: traditional bulk 180/130/90/65nm, HP/LP 45/32/22nm, and multi-gate FinFET 20/16/14/10/7nm.
-
-### [analog-circuit-skills](https://github.com/Arcadia-1/analog-circuit-skills)
-
-Block-level circuit design skill pack: theory, simulation, and practical design insights.
-
-- **comparator** — Dynamic comparator: topology and operating-phase theory, waveform/noise/ramp simulation, speed–power–noise sizing sweeps, and FOM extraction. Includes StrongArm and Miyahara examples.
-- **bootstrap-switch** — Bootstrapped NMOS sampling switch: circuit topology and operating phases, gate-voltage bootstrap verification (Vgs = VDD constant), Ron comparison across input range (NMOS / CMOS / bootstrap), and transistor sizing guidance.
-- **five-transistor-ota** — Classic 5T CMOS OTA with NMOS differential pair, PMOS current-mirror load, and NMOS tail source; includes ngspice DC transfer, AC gain/bandwidth/phase, and output-noise analysis.
-- **two-stage-opamp** — Miller-compensated two-stage CMOS op amp with PMOS input pair, NMOS mirror load, second common-source gain stage, bias mirror, DC operating-point, AC gain/phase, pole-zero, and open-/closed-loop noise simulations.
-- **ldo** — Low-dropout regulator with ngspice DC, AC loop/PSRR/Zout, transient load/line behavior, noise, compensation sweeps, and auto-design helper scripts.
-
-### [veriloga-skills](https://github.com/Arcadia-1/veriloga-skills)
-
-Write Verilog-A code that compiles directly in Cadence Virtuoso and simulates in Spectre.
-
-- **veriloga** — Coding rules and reference examples, validated against Virtuoso/Spectre compilation. 12-category circuit reference library with domain-aware simulation routing (voltage → EVAS, current → OpenVAF/ngspice).
-- **evas-sim** — Optional voltage-domain verification path for behavioral Verilog-A modules using EVAS event-driven simulation.
-- **openvaf** — Guide for compiling Verilog-A device models into plugins (.osdi) with OpenVAF and loading them into ngspice for circuit simulation.
-
-### [EVAS](https://github.com/Arcadia-1/EVAS) [![PyPI](https://img.shields.io/pypi/v/evas-sim.svg)](https://pypi.org/project/evas-sim/) [![PyPI Downloads](https://img.shields.io/pypi/dm/evas-sim)](https://pypi.org/project/evas-sim/)
-
-Zero-dependency, instant-response Verilog-A behavioral simulation sandbox — ideal for verifying clock, control, and calibration logic.
-
-- Pure-Python event-driven engine: instant verification of Verilog-A modules with no EDA license required.
-- Drop-in Virtuoso/Spectre syntax compatibility — run existing `.va` code without modification.
-- 5 bundled smoke-test groups covering clock dividers, digital basics, noise generation, ideal ADC/DAC, and comparator examples; the larger workflow-oriented example set lives in `veriloga-skills/evas-sim`.
-- **evas-sim** — Guides agents to autonomously build, run, and debug Verilog-A behavioral models in license-free environments.
-
-### [sar-adc-skills](https://github.com/Arcadia-1/sar-adc-skills)
-
-SAR ADC design knowledge base for agentic IC design — from system architecture to transistor-level implementation and verification.
-
-- **sar-adc-skill** — Full SAR ADC design guide: specs-to-budgets, CDAC-centered architecture, sync/async SAR logic, comparator/bootstrap/LDO submodules, top-level integration, PVT/metastability/reference concerns, and Spectre verification flow.
-- **behavioral Verilog-A assets** — 4-bit SAR building blocks for system verification: ideal CDAC, comparator, sync logic, async logic, DAC, and single-ended SAR ADC model.
-- **11-bit reference design** — Taped-out SAR ADC reference notes covering module hierarchy, signal polarity, async control, CDAC unit sizing, bootstrap switch, StrongArm comparator, and verification checklist.
+## Projects
 
 ### [virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite)
+
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/virtuoso-bridge-lite?style=flat-square&logo=github)](https://github.com/Arcadia-1/virtuoso-bridge-lite/stargazers)
 
 Lightweight Python bridge for remote Cadence Virtuoso and Spectre workflows.
 
@@ -72,16 +23,11 @@ Lightweight Python bridge for remote Cadence Virtuoso and Spectre workflows.
 - **VirtuosoClient** — Execute SKILL, inspect/edit schematics and layouts, drive Maestro/ADE workflows, and collect snapshots/results through a Python interface.
 - **agent tooling** — Includes Spectre/Virtuoso skills, examples, profile-based environment resolution, and reusable parsers used by downstream AMS workflows.
 
-### [adc-claw](https://github.com/Arcadia-1/adc-claw)
+### [ADCToolbox](https://github.com/Arcadia-1/ADCToolbox)
 
-ADC-focused Spectre simulation workspace for sampling networks, switches, comparators, and small SAR flows.
-
-- **sampling** — Bootstrap, CMOS, NMOS, and differential sampling testbenches with coherent transient setup and FFT/ENOB/SNDR/SFDR analysis.
-- **comparator** — StrongArm and Miyahara comparator simulations: transient decision behavior, Vcm/Vid sweeps, variant comparison, PSS/Pnoise, and input-size studies.
-- **switch** — NMOS/CMOS/bootstrap switch characterization including Ron, high-speed sampling behavior, and distortion-oriented analysis.
-- **sar** — 4-bit SAR ADC netlists and analysis scripts tying SAR logic, comparator, and sampling behavior into a compact verification flow.
-
-### [adctoolbox](https://github.com/Arcadia-1/ADCToolbox) [![PyPI](https://img.shields.io/pypi/v/adctoolbox.svg)](https://pypi.org/project/adctoolbox/) [![PyPI Downloads](https://img.shields.io/pypi/dm/adctoolbox)](https://pypi.org/project/adctoolbox/)
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/ADCToolbox?style=flat-square&logo=github)](https://github.com/Arcadia-1/ADCToolbox/stargazers)
+[![PyPI](https://img.shields.io/pypi/v/adctoolbox.svg?style=flat-square)](https://pypi.org/project/adctoolbox/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/adctoolbox?style=flat-square)](https://pypi.org/project/adctoolbox/)
 
 Multi-dimensional ADC characterization and diagnosis toolbox for deep insight into non-idealities.
 
@@ -92,27 +38,19 @@ Multi-dimensional ADC characterization and diagnosis toolbox for deep insight in
 - Battle-tested: core algorithms distilled from 50+ tape-out projects.
 - Available as a pip package (Python), MATLAB toolbox, and bundled Codex skill installer.
 
----
+### [gmoverid-skill](https://github.com/Arcadia-1/gmoverid-skill)
 
-## Related Projects
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/gmoverid-skill?style=flat-square&logo=github)](https://github.com/Arcadia-1/gmoverid-skill/stargazers)
 
-### [Analog-Circuit-Knowledge-Base](https://github.com/Arcadia-1/Analog-Circuit-Knowledge-Base)
+Foundation skill pack for analog IC design: models, simulation, characterization, and systematic sizing.
 
-Structured analog circuit reference library for amplifier theory, noise techniques, ADC architectures, pole-zero analysis, and design calculations.
-
-- **amplifier references** — Single-transistor stages, 5T differential amplifier, Miller two-stage amplifier, ringamp, floating inverter amplifier, and floating charge-transfer amplifier.
-- **noise and sampling notes** — kT/C cancellation, correlated double sampling, correlated level shifting, current-integration sampling, and source-degeneration noise analysis.
-- **calculation guides** — Bandwidth, phase-noise conversion, comparator noise statistics, and capacitance extraction from AC simulation.
-
-### [behavioral-veriloga-eval](https://github.com/Arcadia-1/behavioral-veriloga-eval)
-
-vaBench / vaEVAS benchmark source for behavioral Verilog-A generation and validation.
-
-- **task families** — `spec-to-va`, `tb-generation`, `end-to-end`, and `bugfix` benchmark cases.
-- **validation route** — EVAS for fast local checking and Spectre for final gold promotion or paper-facing evidence.
-- **benchmark assets** — Prompt, metadata, checks, gold assets, and compact evidence reports for release-quality tasks.
+- **ngspice** — Open-source simulator tutorials: 9 reference scenarios covering DC, AC, Transient, and Noise analyses with built-in PTM 180/45/22nm models.
+- **gmoverid** — gm/ID design methodology: transistor characterization (I-V curves, gm/Id relationships, gate capacitance) and automated sizing via lookup-table API.
+- **transistor-models** — PTM model library: traditional bulk 180/130/90/65nm, HP/LP 45/32/22nm, and multi-gate FinFET 20/16/14/10/7nm.
 
 ### [AMS-IO-Agent](https://github.com/Arcadia-1/AMS-IO-Agent)
+
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/AMS-IO-Agent?style=flat-square&logo=github)](https://github.com/Arcadia-1/AMS-IO-Agent/stargazers)
 
 LLM-driven Cadence Virtuoso agent for IO ring schematic/layout generation and verification.
 
@@ -120,7 +58,74 @@ LLM-driven Cadence Virtuoso agent for IO ring schematic/layout generation and ve
 - **verification flow** — Integrates DRC, LVS, PEX, image-vision inspection, task history, and tool statistics.
 - **interfaces** — CLI and optional Gradio web UI with multi-model API support.
 
+### [analog-agents](https://github.com/Arcadia-1/analog-agents)
+
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/analog-agents?style=flat-square&logo=github)](https://github.com/Arcadia-1/analog-agents/stargazers)
+
+Federated agentic analog IC design framework: 12 skills, 4 agent roles, knowledge graph, cross-model review, and self-evolving checklists for design flows with or without EDA.
+
+- **librarian / architect / designer / verifier** — Role-separated agents for library survey, architecture decomposition, transistor-level design, pre-simulation review, Spectre verification, and sign-off.
+- **verification levels** — L1 functional, L2 performance, and L3 PVT robustness flow with explicit spec sheets, margin reports, and iteration logs.
+- **knowledge graph + checklists** — Topology lessons, anti-patterns, review rules, and effort levels that scale from quick checks to exhaustive verification.
+
+### [veriloga-skills](https://github.com/Arcadia-1/veriloga-skills)
+
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/veriloga-skills?style=flat-square&logo=github)](https://github.com/Arcadia-1/veriloga-skills/stargazers)
+
+Write Verilog-A code that compiles directly in Cadence Virtuoso and simulates in Spectre.
+
+- **veriloga** — Coding rules and reference examples, validated against Virtuoso/Spectre compilation. 12-category circuit reference library with domain-aware simulation routing (voltage → EVAS, current → OpenVAF/ngspice).
+- **evas-sim** — Optional voltage-domain verification path for behavioral Verilog-A modules using EVAS event-driven simulation.
+- **openvaf** — Guide for compiling Verilog-A device models into plugins (.osdi) with OpenVAF and loading them into ngspice for circuit simulation.
+
+### [sar-adc-skills](https://github.com/Arcadia-1/sar-adc-skills)
+
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/sar-adc-skills?style=flat-square&logo=github)](https://github.com/Arcadia-1/sar-adc-skills/stargazers)
+
+SAR ADC design knowledge base for agentic IC design — from system architecture to transistor-level implementation and verification.
+
+- **sar-adc-skill** — Full SAR ADC design guide: specs-to-budgets, CDAC-centered architecture, sync/async SAR logic, comparator/bootstrap/LDO submodules, top-level integration, PVT/metastability/reference concerns, and Spectre verification flow.
+- **behavioral Verilog-A assets** — 4-bit SAR building blocks for system verification: ideal CDAC, comparator, sync logic, async logic, DAC, and single-ended SAR ADC model.
+- **11-bit reference design** — Taped-out SAR ADC reference notes covering module hierarchy, signal polarity, async control, CDAC unit sizing, bootstrap switch, StrongArm comparator, and verification checklist.
+
+### [Analog-Circuit-Knowledge-Base](https://github.com/Arcadia-1/Analog-Circuit-Knowledge-Base)
+
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/Analog-Circuit-Knowledge-Base?style=flat-square&logo=github)](https://github.com/Arcadia-1/Analog-Circuit-Knowledge-Base/stargazers)
+
+Structured analog circuit reference library for amplifier theory, noise techniques, ADC architectures, pole-zero analysis, and design calculations.
+
+- **amplifier references** — Single-transistor stages, 5T differential amplifier, Miller two-stage amplifier, ringamp, floating inverter amplifier, and floating charge-transfer amplifier.
+- **noise and sampling notes** — kT/C cancellation, correlated double sampling, correlated level shifting, current-integration sampling, and source-degeneration noise analysis.
+- **calculation guides** — Bandwidth, phase-noise conversion, comparator noise statistics, and capacitance extraction from AC simulation.
+
+### [analog-circuit-skills](https://github.com/Arcadia-1/analog-circuit-skills)
+
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/analog-circuit-skills?style=flat-square&logo=github)](https://github.com/Arcadia-1/analog-circuit-skills/stargazers)
+
+Block-level circuit design skill pack: theory, simulation, and practical design insights.
+
+- **comparator** — Dynamic comparator: topology and operating-phase theory, waveform/noise/ramp simulation, speed–power–noise sizing sweeps, and FOM extraction. Includes StrongArm and Miyahara examples.
+- **bootstrap-switch** — Bootstrapped NMOS sampling switch: circuit topology and operating phases, gate-voltage bootstrap verification (Vgs = VDD constant), Ron comparison across input range (NMOS / CMOS / bootstrap), and transistor sizing guidance.
+- **five-transistor-ota** — Classic 5T CMOS OTA with NMOS differential pair, PMOS current-mirror load, and NMOS tail source; includes ngspice DC transfer, AC gain/bandwidth/phase, and output-noise analysis.
+- **two-stage-opamp** — Miller-compensated two-stage CMOS op amp with PMOS input pair, NMOS mirror load, second common-source gain stage, bias mirror, DC operating-point, AC gain/phase, pole-zero, and open-/closed-loop noise simulations.
+- **ldo** — Low-dropout regulator with ngspice DC, AC loop/PSRR/Zout, transient load/line behavior, noise, compensation sweeps, and auto-design helper scripts.
+
+### [EVAS](https://github.com/Arcadia-1/EVAS)
+
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/EVAS?style=flat-square&logo=github)](https://github.com/Arcadia-1/EVAS/stargazers)
+[![PyPI](https://img.shields.io/pypi/v/evas-sim.svg?style=flat-square)](https://pypi.org/project/evas-sim/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/evas-sim?style=flat-square)](https://pypi.org/project/evas-sim/)
+
+Zero-dependency, instant-response Verilog-A behavioral simulation sandbox — ideal for verifying clock, control, and calibration logic.
+
+- Pure-Python event-driven engine: instant verification of Verilog-A modules with no EDA license required.
+- Drop-in Virtuoso/Spectre syntax compatibility — run existing `.va` code without modification.
+- 5 bundled smoke-test groups covering clock dividers, digital basics, noise generation, ideal ADC/DAC, and comparator examples; the larger workflow-oriented example set lives in `veriloga-skills/evas-sim`.
+- **evas-sim** — Guides agents to autonomously build, run, and debug Verilog-A behavioral models in license-free environments.
+
 ### [AMS-IO-Bench](https://github.com/Arcadia-1/AMS-IO-Bench)
+
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/AMS-IO-Bench?style=flat-square&logo=github)](https://github.com/Arcadia-1/AMS-IO-Bench/stargazers)
 
 Benchmark dataset for automated IC IO ring generation in Cadence Virtuoso.
 
@@ -130,11 +135,34 @@ Benchmark dataset for automated IC IO ring generation in Cadence Virtuoso.
 
 ### [Verilog-A-Sculptor](https://github.com/Arcadia-1/Verilog-A-Sculptor)
 
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/Verilog-A-Sculptor?style=flat-square&logo=github)](https://github.com/Arcadia-1/Verilog-A-Sculptor/stargazers)
+
 React + Vite application for AI-assisted Verilog-A model generation.
 
 - **model recipes** — ADC, DAC, TDC, and DTC behavioral-model settings.
 - **global constraints** — Module naming, hidden-state handling, transition strategy, supply style, reset, and enable behavior.
 - **LLM generation** — Gemini-powered code generation with rationale and copyable Verilog-A output.
+
+### [behavioral-veriloga-eval](https://github.com/Arcadia-1/behavioral-veriloga-eval)
+
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/behavioral-veriloga-eval?style=flat-square&logo=github)](https://github.com/Arcadia-1/behavioral-veriloga-eval/stargazers)
+
+vaBench / vaEVAS benchmark source for behavioral Verilog-A generation and validation.
+
+- **task families** — `spec-to-va`, `tb-generation`, `end-to-end`, and `bugfix` benchmark cases.
+- **validation route** — EVAS for fast local checking and Spectre for final gold promotion or paper-facing evidence.
+- **benchmark assets** — Prompt, metadata, checks, gold assets, and compact evidence reports for release-quality tasks.
+
+### [adc-claw](https://github.com/Arcadia-1/adc-claw)
+
+[![Stars](https://img.shields.io/github/stars/Arcadia-1/adc-claw?style=flat-square&logo=github)](https://github.com/Arcadia-1/adc-claw/stargazers)
+
+ADC-focused Spectre simulation workspace for sampling networks, switches, comparators, and small SAR flows.
+
+- **sampling** — Bootstrap, CMOS, NMOS, and differential sampling testbenches with coherent transient setup and FFT/ENOB/SNDR/SFDR analysis.
+- **comparator** — StrongArm and Miyahara comparator simulations: transient decision behavior, Vcm/Vid sweeps, variant comparison, PSS/Pnoise, and input-size studies.
+- **switch** — NMOS/CMOS/bootstrap switch characterization including Ron, high-speed sampling behavior, and distortion-oriented analysis.
+- **sar** — 4-bit SAR ADC netlists and analysis scripts tying SAR logic, comparator, and sampling behavior into a compact verification flow.
 
 ---
 
